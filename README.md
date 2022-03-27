@@ -13,7 +13,7 @@ Using python this project reads an unpathed csv file, stores it's data in a list
 ## Summary
 
 Python is a powerful and reuseable tool. With slight modifications the algorithms behind this project can be recycled for years to come. 
-1) Confirm the New_Election_Results.csv's second column has the election's counties and the third column has the candidates name.
+1) Confirm the New_Election_Results.csv's second column has the election's counties and the third column has the candidate's name.
 2) Change the unpathed read to argue ("New_Folder", "New_Election_Results.csv"); this is located on line 9 of our code.
 <br /> 
 Now we can reuse this algorithm to count any local election!

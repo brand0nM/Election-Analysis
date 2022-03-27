@@ -96,7 +96,7 @@ with open(file_to_save, "w") as txt_file:
         county_percentage = round(float(county) / float(total_votes) * 100, 1)
 
          # create county results variable.
-        county_results = (f"{county_name}: {county_percentage}% ({county})")
+        county_results = (f"{county_name}: {county_percentage}% ({county})\n")
 
          # Print and Save the county votes to a text file.
         print(county_results)
@@ -110,7 +110,8 @@ with open(file_to_save, "w") as txt_file:
 
     # Print county with the largest turnout to the terminal and save to text file
     Phat_county = (f"-------------------------\n"
-            f"Largest County Turnout: {largest_county}")
+            f"Largest County Turnout: {largest_county}\n"
+            f"-------------------------\n")
     print(Phat_county)
     txt_file.write(Phat_county)
 
